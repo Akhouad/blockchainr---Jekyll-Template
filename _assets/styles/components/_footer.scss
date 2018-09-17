@@ -1,0 +1,151 @@
+footer{
+    &.main-footer{
+        background-color: $primary-color;
+        padding-top: 50px;
+
+        .nav-heading{
+            color: #fff;
+            font-weight: 700;
+            font-size: 18px;
+            position: relative;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+
+            &:after{
+                content:'';
+                position: absolute;
+                bottom: 0; left: 0;
+                width: 50px; height: 1px;
+                background-color: #fff;
+            }
+        }
+
+        .footer-nav{
+            padding:0;
+
+            li{
+                list-style: none;
+
+                a{
+                    color: $secondary-color;
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 30px;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .transparent{
+            font-weight: 400;
+            color: #9ba1c0;
+        }
+
+        .footer-newsletter{
+            & > span{
+                display: block;
+                text-transform: uppercase;
+                font-size: 12px;
+                font-weight: bold;
+                color: #fff;
+                margin-bottom: 10px
+            }
+            
+            input{
+                height: 50px; width: 100%;
+                background-color: rgba(#fff, .1);
+                border-radius: 3px;
+                padding: 0 10px;
+                border: 0;
+                font-weight: 400;
+                font-size: 13px;
+                color: rgba(#fff, .75);
+
+                &::placeholder{
+                    color: rgba(#fff, .5);
+                }
+            }
+
+            button{
+                background-color: rgba(#fff, .05);
+                padding: 0 15px;
+                width: 100%; height: 50px;
+                line-height: 50px;
+                text-align: right;
+                border-radius: 3px;
+                color: #fff;
+                font-weight: bold;
+                border: 0;
+                cursor: pointer;
+                
+                span{ float: left; }
+            }
+
+            @media screen and (max-width: 768px){
+                button{
+                    width: 50%;
+                    margin: 10px 0 20px;
+                }
+            }
+        }
+
+        .footer-bottom{
+            border-top: solid 1px rgba(#fff, .2);
+            height: 75px; 
+            line-height: 74px;
+
+            .left{
+                float:left;
+                width: 50%;
+                color: rgba(#fff, .5);
+                font-weight: 400;
+                font-size: 13px;
+            }
+
+            .right{
+                width: 50%;
+                float:right;
+                text-align: right;
+
+                .footer-social-icons{
+                    padding: 0;
+                    margin-bottom: 0;
+
+                    li{
+                        list-style: none;
+                        display: inline-block;
+                        margin-left: 10px;
+
+                        a{
+                            display:inline-block;
+                            height: 24px; width: 24px;
+                            border-radius: 50%;
+                            text-align:center;
+                            line-height: 24px;
+                            color: #fff;
+                            font-size: 12px;
+
+                            &.telegram{ background-color: #0088cc }
+                            &.medium{ background-color: #12100E }
+                            &.twitter{ background-color: #4DA9E7 }
+                            &.reddit{ background-color: #EB5030 }
+                        }
+                    }
+                }
+            }
+            
+            @media screen and (max-width: 768px){
+                height: auto;
+                display:inline-block;
+
+                .left, .right{ width: 100%; text-align:center; }
+            }
+        }
+
+        @media screen and (max-width: 468px){
+            padding: 50px 32px;
+
+            .footer-bottom{ line-height: 50px; }
+        }
+    }
+}

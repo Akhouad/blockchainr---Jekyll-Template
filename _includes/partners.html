@@ -1,0 +1,20 @@
+<div class="section white-bg">
+    <div class="container">
+        <div class="section-title">Our Partners</div>
+
+        <div class="partners-slider m-t-100">
+            <ul class="slides">
+                {% for i in (1..4) %}
+                <li>
+                    <a href="">{% asset partner-{{i}}.png class=w-100 %}</a>
+                </li>
+                {% endfor %}
+                {% for i in (1..4) %}
+                <li>
+                    <a href="">{% asset partner-{{i}}.png class=w-100 %}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>

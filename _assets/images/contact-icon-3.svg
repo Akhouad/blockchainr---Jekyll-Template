@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+    <defs>
+        <filter id="a" width="111.8%" height="120.4%" x="-5.9%" y="-9.5%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="9"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0500169837 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <linearGradient id="b" x1="100%" x2="0%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#5172C1"/>
+            <stop offset="100%" stop-color="#64D1B5"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="nonzero" filter="url(#a)" transform="translate(18.2 16.2)">
+        <circle cx="45.9" cy="45.9" r="45.45" fill="#FFF" stroke="#EDEDED" stroke-width=".9"/>
+        <g fill="url(#b)" transform="translate(25.2 25.2)">
+            <path d="M25.784 32.557h6.775v8.47h-6.775zM25.784 13.925h6.775v8.47h-6.775z"/>
+            <path d="M40.18 13.925h-5.927v10.162H24.09l.002-10.162h-5.932a.85.85 0 0 0-.847.846V40.18a.85.85 0 0 0 .847.846h5.932V30.862h10.164l-.002 10.164h5.927a.844.844 0 0 0 .846-.846V14.771a.843.843 0 0 0-.846-.846zm-18.632 22.02h-1.695V34.25h1.695v1.694zm0-5.083h-1.695v-1.694h1.695v1.694zm0-5.08h-1.695v-1.695h1.695v1.695zm0-5.082h-1.695v-1.695h1.695V20.7zm16.94 15.244h-1.694V34.25h1.695v1.694zm0-5.082h-1.694v-1.694h1.695v1.694zm0-5.08h-1.694v-1.695h1.695v1.695zm0-5.082h-1.694v-1.695h1.695V20.7zM7.996.87L.872 7.996h7.124z"/>
+            <path d="M29.17 12.23V2.916A2.544 2.544 0 0 0 26.627.374H9.691v8.47a.846.846 0 0 1-.847.846H.374v23.716a2.55 2.55 0 0 0 2.54 2.54H15.62l-.002-21.174c0-1.4 1.139-2.541 2.541-2.541h11.01zM13.926 4.608h9.316a.846.846 0 1 1 0 1.693h-9.316a.846.846 0 1 1 0-1.693zm-.848 26.255H6.303a.846.846 0 1 1 0-1.693h6.776a.846.846 0 1 1 0 1.693zm0-5.08H6.303a.846.846 0 1 1 0-1.693h6.776a.846.846 0 1 1 0 1.693zm0-5.082H6.303a.846.846 0 1 1 0-1.693h6.776a.846.846 0 1 1 0 1.693zm0-5.082H6.303a.846.846 0 1 1 0-1.693h6.776a.846.846 0 1 1 0 1.693zm.848-5.929a.846.846 0 1 1 0-1.693h9.316a.846.846 0 1 1 0 1.693h-9.316z"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,182 @@
+---
+layout: public
+---
+<!-- HERO -->
+<div class="text-hero">
+    <div class="container">
+        <h1>Secure Multi-Party Computation in a nutshell</h1>
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <p>blockhainr is developing sMPC protocols that allow a number of parties to jointly perform computations on private inputs, without releasing information other than which has been agreed upon.</p>
+            </div>
+        </div>
+        <div class="text-center">
+            <ul class="social-icons d-inline-block">
+                <li><a href=""><i class="fab fa-telegram"></i></a></li>
+                <li><a href=""><i class="fab fa-medium-m"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fab fa-reddit-alien"></i></a></li>
+            </ul>
+            <a href="" class="btn btn-md btn-primary">Read Our Whitepaper</a>
+        </div>
+    </div>
+</div>
+
+<!-- PARAGRAPHS -->
+<div class="section paragraphs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                {% asset millionaire-problem.png class=w-100 %}
+            </div>
+            <div class="col-md-5 offset-md-1">
+                <div class="section-title shorter text-left">Traditional scenario of the 'Millionaire problem':</div>
+                <p>
+                    Let's say there are 5 individuals named Jon, Vincent, Kale, Trevor and Bob. Jon, Vincent, Kale and Trevor (<strong>JVKT</strong> for short) are all millionaires and live a wealthy life. The JVKT millionaires are rather rich but don't know who's the richest of them all. However, they don't want to show each other how much they each specifically have. That's where Bob comes in. Let's say Bob is incorruptable and therefore unbribable and will always supply the correct answer and never leak data. 
+                    <a href="">Learn More</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section paragraphs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="section-title shorter text-right">Solving the 'Millionaire Problem' with Secure Multi-Party Computation:</div>
+                <p class="text-right">
+                    Let's say there are 5 individuals named Jon, Vincent, Kale, Trevor and Bob. Jon, Vincent, Kale and Trevor (<strong>JVKT</strong> for short) are all millionaires and live a wealthy life. The JVKT millionaires are rather rich but don't know who's the richest of them all. However, they don't want to show each other how much they each specifically have. That's where Bob comes in. Let's say Bob is incorruptable and therefore unbribable and will always supply the correct answer and never leak data. 
+                    <a href="">Learn More</a>
+                </p>
+            </div>
+            <div class="col-md-6 offset-md-1">
+                {% asset millionaire-problem-2.png class=w-100 %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section paragraphs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                {% asset achieved.png class=w-100 %}
+            </div>
+            <div class="col-md-5 offset-md-1">
+                <h3 class="paragraph-heading">Achieved</h3>
+                <ul class="list orange-bullets">
+                    <li><p>Factor of trust is eliminated.</p></li>
+                    <li><p>Data is always encrypted during computation using fully homomorphic encryption, meaning it's safe the entire way through.</p></li>
+                    <li><p>Can be used to compute a large amount of data without having to decrypt it.</p></li>
+                    <li><p>The Protocol can be peer-reviewed meaning it's functions are fully transparant.</p></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <div class="container">
+        <div class="section-title">Underlying protocols:</div>
+        <div class="row mt-5">
+            <div class="col-md-8 offset-md-2">
+                <ul class="list orange-bullets">
+                    <li>
+                        <strong>Zero Knowledge</strong>
+                        <p>Can prove to other parties that the used expressions are true without knowing the contents of the expressions.</p>
+                    </li>
+                    <li>
+                        <strong>Secret Sharing</strong>
+                        <p>A pre-configured amount of parties have to agree (threshold) to decrypt the answer before the answer can be decrypted using their own key's that originate from the 'master-key'.</p>
+                    </li>
+                    <li>
+                        <strong>Oblivious Transfer</strong>
+                        <p>Fragmented data is sent without the party knowing what part of the data is sent and when that part of fragmented data is sent.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- USE CASES -->
+<div class="section">
+    <div class="container">
+        <div class="section-title">Possible Use Cases</div>
+        <div class="row mt-5">
+            <div class="col-md-10 offset-md-1">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="icon-box">
+                            <div class="icon lg">{% asset cloud-icon.svg %}</div>
+                            <div class="content">
+                                <div class="title">Secure Cloud Computing</div>
+                                <p style="max-width: 200px;margin: auto">
+                                    Since you never have to decrypt your data during computation the cloud is no longer unsafe to compute data in!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="icon-box">
+                            <div class="icon lg">{% asset statistics-icon.svg %}</div>
+                            <div class="content">
+                                <div class="title">Secure Statistics</div>
+                                <p style="max-width: 200px;margin: auto">
+                                    You've seen the simple example of the Millionaire Problem, but it is possible to think on a way larger scale then before!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="icon-box">
+                            <div class="icon lg">{% asset election-icon.svg %}</div>
+                            <div class="content">
+                                <div class="title">Secure Election-Voting</div>
+                                <p style="max-width: 200px;margin: auto">
+                                    Since your data is never decrypted to compute it is possible to hold elections via the internet!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- RESOURCES -->
+<div class="section">
+    <div class="container">
+        <div class="section-title">Resources</div>
+        <div class="row m-t-100">
+            <div class="col-md-6">
+                <a href="" class="font-weight-bold text-primary">Secure Multi-Party Computation (sMPC) in a nutshell</a>
+                <p class="text-muted text-sm m-b-50">BartSMPC</p>
+                
+                <a href="" class="font-weight-bold text-primary">Simple Description of the Millionaire problem</a>
+                <p class="text-muted text-sm m-b-50">Blog</p>
+                
+                <a href="" class="font-weight-bold text-primary">An Efficient Solution to The Millionaires' Problem Based on Homomorphic Encryption</a>
+                <p class="text-muted text-sm m-b-50">Research Paper</p>
+                
+                <a href="" class="font-weight-bold text-primary">Cryptographic computation: Secure fault-tolerant protocols and the public-key model</a>
+                <p class="text-muted text-sm">Book</p>
+            </div>
+            <div class="col-md-6">
+                <a href="" class="font-weight-bold text-primary">University of Copenhagen - "Cast It" with Ivan Damgard</a>
+                <p class="text-muted text-sm m-b-50">Video</p>
+                
+                <a href="" class="font-weight-bold text-primary">Protocols for secure computations</a>
+                <p class="text-muted text-sm m-b-50">Research Paper</p>
+                
+                <a href="" class="font-weight-bold text-primary">Efficient multi-party computations with dishonest minorty</a>
+                <p class="text-muted text-sm m-b-50">Research Paper</p>
+                
+                <a href="" class="font-weight-bold text-primary">Security against covert adversaries: Efficient protocols for realistic adversaries</a>
+                <p class="text-muted text-sm">Research Paper</p>
+            </div>
+        </div>
+    </div>
+</div>

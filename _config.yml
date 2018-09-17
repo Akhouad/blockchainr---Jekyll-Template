@@ -1,0 +1,30 @@
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-autoprefixer
+  - jekyll-assets
+
+assets:
+  compress:
+    css: false
+    js: false
+    
+  sources:
+    - _assets/styles
+    - _assets/images
+    - _assets/javascripts
+    - _assets/fonts
+    - _assets/img
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

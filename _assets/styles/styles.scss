@@ -1,0 +1,33 @@
+---
+---
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900');
+@import 'variables';
+@import 'helpers';
+@import 'libs/bootstrap.min';
+@import 'libs/flexslider';
+@import 'libs/fontawesome.min';
+
+@import 'components/header';
+@import 'components/footer';
+@import 'components/sections';
+@import 'components/cards';
+@import 'components/buttons';
+@import 'components/alerts';
+@import 'components/typography';
+@import 'components/lists';
+@import 'components/tabs';
+@import 'components/hero';
+@import 'components/sliders';
+@import 'components/tables';
+
+*{ outline: none }
+
+body{
+    background-color: #fcfcfc;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Nunito Sans', sans-serif; 
+    -webkit-font-smoothing:antialiased;   
+}
+
+hr{ margin:0 }
